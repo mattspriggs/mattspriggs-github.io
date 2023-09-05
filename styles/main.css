@@ -8,8 +8,17 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.paragraph {
+.subheading {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph {
+  display: flex;
+  background-color: rgb(42, 130, 197);
+  color: rgb(134, 231, 226);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2rem;
+  border: solid rgb(17, 17, 153);
 }
