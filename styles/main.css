@@ -1,3 +1,15 @@
 body {
   background-color: aquamarine;
 }
+
+#name {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
