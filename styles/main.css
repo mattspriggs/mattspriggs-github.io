@@ -53,21 +53,37 @@ img {
 }
 
 .left {
-  float: left;
+  display: grid;
 }
+
+/* .left {
+  float: left;
+} */
 
 .right {
   float: right;
 }
 
 .blog {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 50% 50%;
+  gap: 0.25em;
   background-color: rgb(42, 130, 197);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 2rem;
+  padding: 0.25em;
   border: solid rgb(17, 17, 153);
   border-radius: 10px;
+  margin: auto;
+  text-align: center;
 }
 
-li {
-  list-style: none;
+.buttons {
+  /* grid-auto-columns: auto; */
+}
+
+.list {
+  grid-template-columns: 3;
+  grid-template-rows: 2;
+  gap: 1em 1em;
 }
