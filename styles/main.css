@@ -1,5 +1,12 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(87, 115, 130);
+}
+
+.nav {
+  border-bottom: solid thin;
+  color: antiquewhite;
+  background-color: rgb(9, 9, 103);
+  margin: -1;
 }
 
 #name {
