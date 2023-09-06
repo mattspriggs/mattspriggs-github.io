@@ -29,7 +29,6 @@ img {
 .section {
   display: flex;
   background-color: rgb(42, 130, 197);
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 2rem;
   border: solid rgb(17, 17, 153);
@@ -45,4 +44,20 @@ img {
 
 .heading {
   color: rgb(9, 9, 103);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.blog {
+  background-color: rgb(42, 130, 197);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2rem;
+  border: solid rgb(17, 17, 153);
+  border-radius: 10px;
 }
