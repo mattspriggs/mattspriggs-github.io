@@ -72,12 +72,6 @@ button {
   border-radius: 15px;
 }
 
-/* .list {
-  grid-template-columns: 3;
-  grid-template-rows: 2;
-  gap: 1em 1em;
-} */
-
 @media (min-width: 800px) {
   .container {
     display: grid;
