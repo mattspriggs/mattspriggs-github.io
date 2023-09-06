@@ -17,13 +17,19 @@ body {
   color: rgb(9, 9, 103);
 }
 
+.tagline {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(9, 9, 103);
+  text-align: center;
+}
+
 img {
   display: block;
   margin: auto;
   width: 15%;
   height: auto;
   border: solid rgb(17, 17, 153);
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .section {
@@ -60,4 +66,8 @@ img {
   padding: 2rem;
   border: solid rgb(17, 17, 153);
   border-radius: 10px;
+}
+
+li {
+  list-style: none;
 }
