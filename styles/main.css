@@ -1,14 +1,32 @@
 body {
-  background-color: rgb(87, 115, 130);
+  background-color: rgba(91, 117, 131, 0.971);
 }
 
 .nav {
-  border-bottom: solid thin;
-  color: antiquewhite;
-  background-color: rgb(9, 9, 103);
-  margin: -1;
+  border-bottom: solid;
+  border-bottom-style: groove;
+  border-color: antiquewhite;
+  color: rgb(9, 9, 103);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: end;
 }
 
+.navbar {
+  padding-right: 1em;
+  padding-top: 1em;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(9, 9, 103);
+}
+
+a:visited {
+  color: antiquewhite;
+}
 #name {
   display: flex;
   justify-content: center;
@@ -49,10 +67,10 @@ img {
 }
 
 .paragraph {
-  border-top: solid thin gray;
-  border-bottom: solid thin gray;
+  border-top: solid thin lightgray;
+  border-bottom: solid thin lightgray;
   padding: 1.5em;
-  color: rgb(134, 231, 226);
+  color: antiquewhite;
 }
 
 .heading {
@@ -74,9 +92,12 @@ img {
 }
 
 button {
-  background-color: aquamarine;
+  background-color: lightgray;
   border: solid 0.25em darkblue;
   border-radius: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: darkblue;
 }
 
 @media (min-width: 800px) {
@@ -89,4 +110,9 @@ button {
 
 .core {
   grid-column-start: 2;
+}
+
+span {
+  font-weight: bold;
+  color: darkblue;
 }

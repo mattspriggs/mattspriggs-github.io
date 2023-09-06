@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <div>
-      <p class="nav">testing text</p>
+    <div class="nav">
+      <p class="navbar">
+        <a href="#about">ABOUT</a> | <a href="#blogs">BLOGS</a> |
+        <a href="#techblog">TECH</a> | <a href="#core">CORE</a>
+      </p>
     </div>
     <!-- HEADING -->
     <div class="heading">
@@ -21,7 +24,7 @@
       </h3>
     </div>
     <!-- ABOUT -->
-    <h2 class="subheading">ABOUT</h2>
+    <h2 class="subheading" id="about">ABOUT</h2>
     <div class="section">
       <p class="paragraph">
         A late career professional taking a bold leap into the tech sector in an
@@ -35,10 +38,30 @@
     </div>
     <!-- BLOGS -->
     <section>
-      <h2 class="subheading">BLOGS</h2>
+      <h2 class="subheading" id="blogs">BLOGS</h2>
+      <div class="section">
+        <p class="paragraph">
+          The following blog entiries record my personal journey as a part of
+          Dev Academy Aotearoa/New Zealand. They are broken into two parts:
+          <br />
+          <br />
+          <span>Technical</span> <br />
+          These entries focus on technical development during my time in the
+          Foundations section of the bootcamp. Topics cover things such as
+          HTML5, CSS3 and JavaScript. The are related to the development of hard
+          or technical coding skills.
+          <br />
+          <br />
+          <span>Core</span> <br />
+          These entries focus on personal and professional development. Topics
+          are more about how I manage the intense environment of the bootcamp
+          such as stress reduction, learning acceleration and preventing
+          burn-out in addition to developing professional soft skills.
+        </p>
+      </div>
       <div class="container">
         <div class="tech">
-          <h4 class="subheading">Technical</h4>
+          <h4 class="subheading" id="techblog">TECHNICAL</h4>
           <div class="blog">
             <a href="./blog/te-houtaewa-template.html" target="_blank">
               <button>Tech Sprint 1</button>
@@ -61,7 +84,7 @@
           </div>
         </div>
         <div class="core">
-          <h4 class="subheading">Core</h4>
+          <h4 class="subheading" id="core">CORE</h4>
           <div class="blog">
             <a href="./blog/te-houtaewa-template.html" target="_blank">
               <button>Core Sprint 1</button>
