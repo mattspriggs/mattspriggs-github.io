@@ -14,33 +14,59 @@
     <!-- POST HEADING -->
     <div class="heading">
       <h1 class="subheading">HTML & CSS</h1>
-      <h2 class="subheading">Classes vs IDs</h2>
+      <h2 class="subheading">CLASS vs ID</h2>
     </div>
 
     <div class="section">
       <p class="paragraph">
-        <span>DEFINITIONS</span> <br /><br />
-        Classes and IDs provide similar but different functions that provide
-        powerful funtions for the interaction between HTML and CSS.
+        <span>SIMLAR BUT DIFFERENT</span> <br />
+        A
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class"
+          ><span>class</span></a
+        >
+        and an
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id"
+          ><span>id</span></a
+        >
+        provide similar functions but are critically different. They both
+        connect HTML to CSS that styles it and/or JavaScript that powers its
+        interactivity. However there is a key difference and there are best
+        practices for when to use a class or an id.
         <br />
         <br />
-        <span>Class</span><br />
+        <span>MAIN FUNCTION</span><br />
         Assigning a
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class"
           ><span>class</span></a
         >
-        to an element provides you with the ability to apply specific CSS or
-        JavaScript effects to the web page shown in general, a specific section
-        ro multiple places. A class differs from an ID in that it can be
-        repeated anywhere you choose by simply adding the class to the element.
+        or an
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id"
+          ><span>id</span></a
+        >
+        to an HTML element/tag (a part of the page) allows you to apply specific
+        CSS or JavaScript effects between the opening and closing element/tag.
         <br />
         <br />
+        <span>CRITICAL DIFFERENCE</span><br />
+        A class differs from an ID in that it can be repeated anywhere in that
+        HTML document/page by simply adding the class to the opening
+        element/tag. However an id is unique and is scoped "globally" for that
+        HTML document/page. In simple terms, you can repeat a class within an
+        HTML document/page but an id only appear once within an HTML
+        document/page.
+        <br />
+        <br />
+        <!-- HTML CODE -->
         <span>HTML Code Example</span><br />
-        To assign a class in HTML you would find the "opening" element or tag
-        you want it to apply to and add the class so that your CSS or JavaScript
-        can find it and apply its effect to the page that the end user interacts
-        with. That code would look something like this:
+        To assign a class and/or an id in HTML find the "opening" element/tag
+        you want it to apply to and add the class and/or an id. This allows CSS
+        or JavaScript to find it on the HTML page and apply the effect to the
+        page that the end user views or interacts with. To apply a class in HTML
+        the code would look something like this:
         <br />
         <br />
         <img
@@ -48,6 +74,23 @@
           alt="Code snippet showing a class added to an HTML element"
           class="code-snippet"
         />
+        <br />
+        <!-- CSS CODE -->
+        <span>CSS Code Example</span><br />
+        To assign a class in HTML find the "opening" element/tag you want it to
+        apply to and add the class. This allows CSS or JavaScript to find it on
+        the HTML page and apply the effect to the page that the end user views
+        or interacts with. To apply a class in HTML the code would look
+        something like this:
+        <br />
+        <br />
+        <img
+          src="../images/class-html-code.png"
+          alt="Code snippet showing a class added to an HTML element"
+          class="code-snippet"
+        />
+        <br />
+
         <span>CORE</span> <br />
         These entries focus on personal and professional development. Topics are
         more about how I manage the intense environment of the bootcamp such as

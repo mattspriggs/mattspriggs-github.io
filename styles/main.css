@@ -27,6 +27,7 @@ a:link {
 a:visited {
   color: antiquewhite;
 }
+
 #name {
   display: flex;
   justify-content: center;
