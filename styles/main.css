@@ -48,7 +48,7 @@ a:visited {
   text-align: center;
 }
 
-img {
+.photo {
   display: block;
   margin: auto;
   width: 15%;
@@ -118,4 +118,11 @@ button {
 span {
   font-weight: bold;
   color: darkblue;
+}
+
+.code-snippet {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
