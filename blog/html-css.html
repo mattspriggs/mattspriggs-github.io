@@ -54,17 +54,22 @@
         <br />
         <br />
         <span>CRITICAL DIFFERENCES</span><br />
-        A class differs from an ID in that it can be repeated anywhere in that
+        A class differs from an id in that it can be repeated anywhere in that
         HTML document/page by simply adding the class to the opening
         element/tag. However an id is unique and is scoped "globally" for that
         HTML document/page. In simple terms, you can repeat a class within an
-        HTML document/page but an id only appear once within an HTML
+        HTML document/page but an id can only appear once within an HTML
         document/page.
         <br />
         <br />
         This unique id also provides an additional function for HTML. If you
-        want to provide naviagation links to specific parts of a page, you can
+        want to provide naviagation links to specific part of a page, you can
         use the unique id as the target for that link!
+        <br />
+        <br />
+        Additionally, you could, if necessary, provide an element/tag with BOTH
+        an id and a class. This should be rare and will only happen in very
+        specific use cases.
         <br />
         <br />
         <!-- HTML CODE -->
@@ -128,8 +133,8 @@
 
         <span id="best">BEST PRACTICE</span> <br />
         To be effective using class and id in website development, one has to be
-        able to look at their site as a whole. While it is poassible to repeat
-        an id in separate HTML documents, ids can also conflict with JavaScript
+        able to look at their site as a whole. While it is possible to repeat an
+        id in separate HTML documents, ids can also conflict with JavaScript
         functions. It is a best practice to make ids globally unique to the
         entire site and not just the HTML document. This may not be practical
         for very large sites, so having strong documentation of the unique ids
