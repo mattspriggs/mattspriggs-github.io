@@ -8,7 +8,9 @@
   <body>
     <div class="nav">
       <p class="navbar">
-        <a href="../index.html">HOME</a>
+        <a href="../index.html">HOME</a> | <a href="#html">HTML CODE</a> |
+        <a href="#css">CSS CODE</a> |
+        <a href="#best">BEST PRACTICE</a>
       </p>
     </div>
     <!-- POST HEADING -->
@@ -51,7 +53,7 @@
         CSS or JavaScript effects between the opening and closing element/tag.
         <br />
         <br />
-        <span>CRITICAL DIFFERENCE</span><br />
+        <span>CRITICAL DIFFERENCES</span><br />
         A class differs from an ID in that it can be repeated anywhere in that
         HTML document/page by simply adding the class to the opening
         element/tag. However an id is unique and is scoped "globally" for that
@@ -60,8 +62,13 @@
         document/page.
         <br />
         <br />
+        This unique id also provides an additional function for HTML. If you
+        want to provide naviagation links to specific parts of a page, you can
+        use the unique id as the target for that link!
+        <br />
+        <br />
         <!-- HTML CODE -->
-        <span>HTML Code Example</span><br />
+        <span id="html">HTML Code Example</span><br />
         To assign a class and/or an id in HTML find the "opening" element/tag
         you want it to apply to and add the class and/or an id. This allows CSS
         or JavaScript to find it on the HTML page and apply the effect to the
@@ -75,27 +82,101 @@
           class="code-snippet"
         />
         <br />
-        <!-- CSS CODE -->
-        <span>CSS Code Example</span><br />
-        To assign a class in HTML find the "opening" element/tag you want it to
-        apply to and add the class. This allows CSS or JavaScript to find it on
-        the HTML page and apply the effect to the page that the end user views
-        or interacts with. To apply a class in HTML the code would look
-        something like this:
+        <img
+          src="../images/id-html-code.png"
+          alt="Code snippet showing an id added to an HTML element"
+          class="code-snippet"
+        />
+        <br />
+        To use the id for naviagating within a page you supply the id to the
+        anchor (link) element/tag as its href (reference). That code would look
+        like this:
         <br />
         <br />
         <img
-          src="../images/class-html-code.png"
+          src="../images/id-nav-html-code.png"
           alt="Code snippet showing a class added to an HTML element"
           class="code-snippet"
         />
         <br />
+        <!-- CSS CODE -->
+        <span id="css">CSS Code Example</span><br />
+        CSS will then "look" for the class and/or id to apply the styling. For
+        CSS to find a class and/or id in the HTML document the code would look
+        something like this:
+        <br />
+        <br />
+        <span>CSS CLASS</span>
+        <br />
+        <br />
+        <img
+          src="../images/class-css-code.png"
+          alt="Code snippet showing a class in CSS"
+          class="code-snippet"
+        />
+        <br />
+        <br />
+        <span>CSS ID</span>
+        <br />
+        <br />
+        <img
+          src="../images/id-css-code.png"
+          alt="Code snippet showing an id in CSS"
+          class="code-snippet"
+        />
+        <br />
 
-        <span>CORE</span> <br />
-        These entries focus on personal and professional development. Topics are
-        more about how I manage the intense environment of the bootcamp such as
-        stress reduction, learning acceleration and preventing burn-out in
-        addition to developing professional soft skills.
+        <span id="best">BEST PRACTICE</span> <br />
+        To be effective using class and id in website development, one has to be
+        able to look at their site as a whole. While it is poassible to repeat
+        an id in separate HTML documents, ids can also conflict with JavaScript
+        functions. It is a best practice to make ids globally unique to the
+        entire site and not just the HTML document. This may not be practical
+        for very large sites, so having strong documentation of the unique ids
+        used on the site is critically important so that ids can be reused in
+        separate HTML documents for CSS styling purposes and not create
+        JavaScript conflicts.
+        <br /><br />
+        To determine if you should use a class or an id answer several
+        questions:
+        <br />
+        <br />
+        <span>HTML</span>
+        <br />
+        <span>Q:</span> Is this the only time this element will appear on the
+        page? <br /><br />If the answer is yes then an id will be appropriate.
+        <br />
+        <br />
+        <span>Q:</span> Will I need to provide a navigation link to this part of
+        the page? <br /><br />If the answer is yes then an id will be
+        appropriate.
+        <br />
+        <br />
+        <span>CSS</span>
+        <br />
+        <span>Q:</span> Do I need to repeat this styling elsewhere?
+        <br /><br />If the answer is yes then a class will be appropriate.
+        <br /><br />
+        <span>Q:</span> Is this the only time this will appear on a page?
+        <br /><br />If the answer is yes then an id will be appropriate.
+        <br />
+        <br />
+        <span>JS</span>
+        <br />
+        <span>Q:</span> Will JavaScript be the only thing using this id to
+        manipulate the HMTL document? <br /><br />If the answer is yes then an
+        id will be appropriate. <br /><br />
+        <span>VIDEO RESOURCE</span>
+        <br />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/SHIMUoAJHYU?si=m8t9ENqAB6C0h0K6"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </p>
     </div>
   </body>
