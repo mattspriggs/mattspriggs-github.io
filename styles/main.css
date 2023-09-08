@@ -104,6 +104,10 @@ button {
   height: 50px;
 }
 
+li {
+  padding: 0.25em;
+}
+
 @media (min-width: 800px) {
   .container {
     display: grid;
