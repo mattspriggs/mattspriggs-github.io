@@ -125,6 +125,10 @@ span {
   color: darkblue;
 }
 
+.quote {
+  font-style: italic;
+}
+
 .code-snippet {
   width: 70%;
   height: auto;
