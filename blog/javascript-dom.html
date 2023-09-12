@@ -9,18 +9,18 @@
   <body>
     <div class="nav">
       <p class="navbar">
-        <a href="../index.html">HOME</a> | <a href="#web">JS - HTML - CSS</a> |
-        <a href="#js">JS and the DOM</a> |
+        <a href="../index.html">HOME</a> | <a href="#web">DOM</a> |
+        <a href="#js">JS INTERACTIVITY</a> |
         <a href="#control">CONTROL FLOW - LOOPS</a> |
-        <a href="#workload">WORKLOAD</a> | <a href="#help">HELP</a> |
-        <a href="#expectations">EXPECTATIONS</a> |
+        <a href="#dom-manipulation">DOM INTERACTIONS</a> |
+        <a href="#help">HELP</a> | <a href="#expectations">EXPECTATIONS</a> |
         <a href="#scheduling">SCHEDULING</a>
       </p>
     </div>
     <div class="heading">
       <h1 class="subheading">JavaScript & the DOM</h1>
     </div>
-    <h2 class="subheading" id="web">JavaScript, HTML & CSS</h2>
+    <h2 class="subheading" id="web">Document Object Model - DOM</h2>
     <h3 class="subheading">What Forms The World Wide Web</h3>
     <div class="section">
       <p class="paragraph">
@@ -29,35 +29,39 @@
         browser on your device, it will load, usually, a web page that connects
         your device to the greater internet (also known as the World Wide Web),
         and that page is referred to as a search engine. It is also just a web
-        page that is interactive.<br /><br />
+        page that is interactive. That web page, like all other pages, is built
+        on a consistent foundation known as a document.<br /><br />
 
-        From the moment you open your web browser, you are viewing a web page
-        that has a consistent structure as its foundation which is known as a
-        document. The document is the consistent basis for every webpage you
-        view. But the document itself is just a blank canvas with a bunch of
-        rules that you can't see.
-        <br /><br />
-        What you see is likely instructions from three interrelated programming
-        languages that decide the structure and content (<span>HTML</span>); how
-        the page is organized and styled (color, fonts, placement, size,
-        etc.)(<span>CSS</span>); how you can interact with with the page
-        (<span>JavaScript</span>).
+        The document is the consistent basis for every webpage you view. But the
+        document itself is just a blank canvas with a bunch of rules that you
+        can't see. This document is a sort of scaffolding that is described as
+        an object. An object in coding is a way of describing in code what a
+        real world object might look like. The document is such an object.
+        Objects are are model or representation of that real life thing. So the
+        foundation of a web page is referred to as the Document Object Model or
+        DOM.
       </p>
     </div>
     <h2 class="subheading" id="js">JavaScript's Control of the DOM</h2>
     <div class="section">
       <p class="paragraph">
-        So while a web page can be created with HTML and CSS alone, they are not
-        very efficient and are rather dull. JavaScript, on the other hand, can
-        create interaction for the user, change the HTML and CSS and create
+        What you see on the web is likely instructions from three interrelated
+        programming languages that reside on the DOM that determine the
+        structure and content (<span>HTML</span>); how the page is organized and
+        styled (color, fonts, placement, size, etc.)(<span>CSS</span>); and how
+        you can interact with with the page (<span>JavaScript</span>).
+        <br /><br />
+        A web page can be created with HTML and CSS alone. These web pages are
+        not very efficient and are rather dull. JavaScript, on the other hand,
+        can create interaction for the user, change the HTML and CSS and create
         depth to the web page. In a way, HTML and CSS are like a flat paper
-        printer. It may look nice, convey a message and important information
-        but not much else. JavaScript would be taking the concept of printing on
-        2D paper and creating a 3D print that you could interact with.
+        printer. A 2D printed page may look nice, convey a message and important
+        information but not much else. JavaScript would be taking the concept of
+        printing on 2D paper and creating a 3D print that you could interact
+        with.
         <br /><br />
         So while HTML and CSS are important, JavaScript is what will control the
-        document, the universal foundation of all web pages mentioned above, and
-        referred to as the Document Object Model or DOM.
+        what interation the DOM provides.
       </p>
     </div>
     <h2 class="subheading" id="control">Control Flow and Loops</h2>
@@ -87,41 +91,31 @@
       alt="Image of code demonstrating control flow and loops"
       class="code-snippet"
     />
-    <h2 class="subheading" id="workload">Workload Commitment</h2>
+    <h2 class="subheading" id="dom-manipulation">
+      JavaScript DOM Interactions
+    </h2>
     <div class="section">
-      <ul class="paragraph">
-        <li>
-          I commit to:
-          <ul>
-            <li>
-              Start work by 8 AM and end no later than 8 PM unless I am in
-              crunch mode.
-            </li>
-            <li>
-              For every 4 hours I work I will take a minimum of a 15 minute
-              break AWAY FROM THE KEYBOARD.
-            </li>
-            <li>
-              To deal with stress and potential conflicts, I will not react in
-              the moment but instead will step back, listen and try to
-              understand before responding.
-            </li>
-            <ul>
-              <li>This may require me to</li>
-              <ul>
-                <li>Take a walk</li>
-                <li>Do some Tai Chi</li>
-                <li>Go for coffee</li>
-                <li>
-                  Anything completely different to let my emotional response
-                  clear
-                </li>
-              </ul>
-            </ul>
-          </ul>
-        </li>
-      </ul>
+      <p class="paragraph">
+        One of the powers of JavaScript is its ability to interact with the
+        Document Object Model (DOM). However, to access the DOM there must be a
+        location to target its interaction. These targets are created through
+        accessing HTML elements (tags) that are on the page and have either a
+        class (classes group things together) or an id (ids are unique).
+        <br /><br />
+        For example, you have a button on the page that you want to change the
+        label when that button is pressed. To allow JavaScript find this
+        specific button you would add an id to its opening element/tag and
+        "query" the document to set it as the target for JavaScript to make the
+        change. When the button is clicked JavaScript will find the button and
+        change the text. This is illustrated in the code snippets below.
+      </p>
     </div>
+    <h2 class="subheading">Code Example: JavaScript DOM Interaction</h2>
+    <img
+      src="../images/loops.png"
+      alt="Image of code demonstrating control flow and loops"
+      class="code-snippet"
+    />
     <h2 class="subheading" id="help">Help Commitment</h2>
     <div class="section">
       <p class="paragraph">
