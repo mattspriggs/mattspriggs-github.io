@@ -17,11 +17,12 @@ body {
 }
 a {
   outline: none;
-  text-decoration: none;
+  text-decoration: dotted;
 }
 
-a:link {
-  color: rgb(9, 9, 103);
+a:link,
+.blogLink {
+  color: rgb(9, 9, 103) !important;
 }
 
 a:visited {
@@ -89,8 +90,6 @@ a:visited {
   border: solid rgb(17, 17, 153);
   border-radius: 10px;
   margin: auto;
-  text-align: center;
-  align-items: center;
 }
 
 button {
