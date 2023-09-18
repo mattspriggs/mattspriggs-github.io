@@ -20,9 +20,8 @@ a {
   text-decoration: dotted;
 }
 
-a:link,
-.blogLink {
-  color: rgb(9, 9, 103) !important;
+a:link {
+  color: rgb(9, 9, 103);
 }
 
 a:visited {
@@ -89,6 +88,7 @@ a:visited {
   padding: 0.25em;
   border: solid rgb(17, 17, 153);
   border-radius: 10px;
+  color: antiquewhite;
   margin: auto;
 }
 
