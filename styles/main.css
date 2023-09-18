@@ -21,11 +21,11 @@ a {
 }
 
 a:link {
-  color: rgb(98, 156, 213);
+  color: whitesmoke;
 }
 
 a:visited {
-  color: whitesmoke;
+  color: rgb(98, 156, 213);
 }
 
 #name {
