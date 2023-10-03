@@ -1,8 +1,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 75px;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-top: 60px;
+  background-color: gray;
 }
 
 /* .nav {
@@ -30,4 +29,15 @@ body {
   border: solid thick darkblue;
   border-radius: 5%;
   height: 300px;
+  color: antiquewhite;
+}
+
+#game-reviews {
+  background-image: url('../images/lies-of-p-exhibition.png');
+}
+#game-finder {
+  background-image: url('../images/lies-of-p-fire.png');
+}
+#game-calendar {
+  background-image: url('../images/lies-of-p-parade.png');
 }
