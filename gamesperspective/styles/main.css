@@ -1,7 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 75px;
-  color: antiquewhite;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 /* .nav {
@@ -20,4 +21,13 @@ body {
   background-image: url('../images/lies-of-p-exhibition.png');
   color: antiquewhite;
   padding-left: 0%;
+  color: antiquewhite;
+  height: 300px;
+}
+
+.subcontent {
+  background-color: aqua;
+  border: solid thick darkblue;
+  border-radius: 5%;
+  height: 300px;
 }
