@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 60px;
+  padding-top: 56px;
   background-color: gray;
 }
 
@@ -26,8 +26,7 @@ body {
 
 .subcontent {
   background-color: aqua;
-  border: solid thick darkblue;
-  border-radius: 5%;
+
   height: 300px;
   color: antiquewhite;
 }
